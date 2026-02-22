@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Services | Clean & Dry Carpet Cleaning & Restoration LLC</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1a1a1a",
+                        "background-light": "#f8f9f5",
+                        "background-dark": "#0f110c",
+                        "sage": {
+                            50: "#f4f7f2",
+                            100: "#e9efdf",
+                            200: "#d2dec2",
+                            300: "#b4c6a0",
+                            400: "#92a87a",
+                            500: "#758c5c",
+                        }
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                        "xl": "1rem",
+                        "2xl": "2rem",
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .text-balance {
+            text-wrap: balance;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-primary dark:text-gray-100 font-sans antialiased transition-colors duration-300">
+    <nav
+        class="fixed top-0 w-full z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-sage-200 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-primary dark:bg-sage-400 rounded-full flex items-center justify-center">
+                    <span class="text-white dark:text-primary font-bold text-xs">CD</span>
+                </div>
+                <a href="index.html" class="font-bold text-xl tracking-tighter">CLEAN&DRY</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-10 text-sm font-medium tracking-wide">
+                <a class="hover:text-sage-500 transition-colors uppercase" href="index.html">Home</a>
+                <a class="text-sage-500 uppercase" href="services.html">Services</a>
+                <a class="hover:text-sage-500 transition-colors uppercase" href="about.html">About</a>
+                <a class="hover:text-sage-500 transition-colors uppercase" href="contact.html">Contact</a>
+            </div>
+            <div class="flex items-center space-x-6">
+                <button class="p-2 hover:bg-sage-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+                    onclick="document.documentElement.classList.toggle('dark')">
+                    <span class="material-symbols-outlined block dark:hidden">dark_mode</span>
+                    <span class="material-symbols-outlined hidden dark:block text-yellow-400">light_mode</span>
+                </button>
+                <a class="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
+                    href="contact.html">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main class="pt-32">
+        <section class="max-w-7xl mx-auto px-6 py-20 border-b border-sage-200 dark:border-gray-800">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl md:text-7xl font-display leading-tight mb-8 text-balance">
+                    We deliver <span class="italic">spotless</span> results for every surface in your home.
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 font-light leading-relaxed">
+                    From deep carpet cleaning to emergency water damage restoration, our professional team uses
+                    industry-leading equipment to restore your home to perfection.
+                </p>
+            </div>
+        </section>
+        <section class="bg-sage-100 dark:bg-[#151812] py-24">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+                    <div>
+                        <span class="text-xs font-bold tracking-[0.2em] uppercase text-sage-500 mb-4 block">Our
+                            Expertise</span>
+                        <h2 class="text-4xl font-display">Professional Cleaning Services</h2>
+                    </div>
+                    <div class="max-w-md text-gray-600 dark:text-gray-400">
+                        <p>Our experienced technicians combine state-of-the-art equipment with proven techniques to
+                            deliver exceptional results every time.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[4/5] overflow-hidden rounded-2xl mb-6 bg-gray-200">
+                            <img alt="Professional carpet cleaning with hot water extraction"
+                                class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+                                src="images/steam_cleaning_detail_1771795228312.png" />
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-2xl font-display mb-3">Carpet Cleaning</h3>
+                            <span
+                                class="material-symbols-outlined text-sage-400 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-400 font-light leading-relaxed mb-4">Deep hot water
+                            extraction, steam cleaning, and dry carpet cleaning methods for a thorough, residue-free
+                            clean.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="text-[10px] uppercase tracking-widest px-3 py-1 bg-white/50 dark:bg-gray-800/50 rounded-full border border-sage-200 dark:border-gray-700">Hot
+                                Water Extraction</span>
+                            <span
+                                class="text-[10px] uppercase tracking-widest px-3 py-1 bg-white/50 dark:bg-gray-800/50 rounded-full border border-sage-200 dark:border-gray-700">Steam
+                                Cleaning</span>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[4/5] overflow-hidden rounded-2xl mb-6 bg-gray-200">
+                            <img alt="Tile and grout deep cleaning"
+                                class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+                                src="images/tile_grout_cleaning_1771795129507.png" />
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-2xl font-display mb-3">Tile &amp; Grout Cleaning</h3>
+                            <span
+                                class="material-symbols-outlined text-sage-400 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-400 font-light leading-relaxed mb-4">Restore your tile
+                            floors and grout lines to their original brilliance with our professional deep-cleaning
+                            process.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="text-[10px] uppercase tracking-widest px-3 py-1 bg-white/50 dark:bg-gray-800/50 rounded-full border border-sage-200 dark:border-gray-700">Floor
+                                Cleaning</span>
+                            <span
+                                class="text-[10px] uppercase tracking-widest px-3 py-1 bg-white/50 dark:bg-gray-800/50 rounded-full border border-sage-200 dark:border-gray-700">Grout
+                                Restoration</span>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[4/5] overflow-hidden rounded-2xl mb-6 bg-gray-200">
+                            <img alt="Water damage restoration equipment"
+                                class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+                                src="images/water_damage_restoration_1771795171187.png" />
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-2xl font-display mb-3">Water Damage Restoration</h3>
+                            <span
+                                class="material-symbols-outlined text-sage-400 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-400 font-light leading-relaxed mb-4">24/7 emergency water
+                            extraction, drying, and full restoration to minimize damage and get your home back to
+                            normal.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="text-[10px] uppercase tracking-widest px-3 py-1 bg-white/50 dark:bg-gray-800/50 rounded-full border border-sage-200 dark:border-gray-700">Emergency</span>
+                            <span
+                                class="text-[10px] uppercase tracking-widest px-3 py-1 bg-white/50 dark:bg-gray-800/50 rounded-full border border-sage-200 dark:border-gray-700">24/7
+                                Response</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto px-6 py-32">
+            <div class="bg-primary text-white rounded-3xl overflow-hidden flex flex-col lg:flex-row">
+                <div class="lg:w-1/2">
+                    <img alt="Beautifully clean upholstery after professional cleaning"
+                        class="w-full h-full object-cover min-h-[400px]"
+                        src="images/upholstery_cleaning_1771795155522.png" />
+                </div>
+                <div class="lg:w-1/2 p-12 lg:p-20 flex flex-col justify-center">
+                    <span class="material-symbols-outlined text-sage-400 text-5xl mb-8">format_quote</span>
+                    <blockquote class="text-3xl font-display leading-snug mb-8">
+                        "Without hesitation, I would highly recommend using this company."
+                    </blockquote>
+                    <div>
+                        <p class="font-bold tracking-tight">DENNIS LONGORIA</p>
+                        <p class="text-gray-400 text-sm">Verified Google Review, San Antonio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border-t border-sage-200 dark:border-gray-800">
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2">
+                <div class="py-24 md:border-r border-sage-200 dark:border-gray-800 pr-12">
+                    <h2 class="text-4xl font-display mb-8">Ready for a fresher, cleaner home?</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-400 mb-10 leading-relaxed">We work with homeowners
+                        and property managers across San Antonio and Bexar County who value professional results and
+                        exceptional customer service.</p>
+                    <a class="inline-flex items-center space-x-4 group" href="contact.html">
+                        <span
+                            class="w-12 h-12 rounded-full border border-primary dark:border-white flex items-center justify-center group-hover:bg-primary group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-primary transition-all">
+                            <span class="material-symbols-outlined">arrow_outward</span>
+                        </span>
+                        <span class="font-bold tracking-widest uppercase text-xs">Request a Free Quote</span>
+                    </a>
+                </div>
+                <div class="py-24 md:pl-12 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center group cursor-pointer">
+                            <span class="text-sm font-medium uppercase tracking-widest text-gray-400">01 / On-Site
+                                Assessment</span>
+                            <span
+                                class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">add</span>
+                        </div>
+                        <div class="h-[1px] bg-sage-200 dark:bg-gray-800 w-full"></div>
+                        <div class="flex justify-between items-center group cursor-pointer">
+                            <span class="text-sm font-medium uppercase tracking-widest text-gray-400">02 / Professional
+                                Cleaning</span>
+                            <span
+                                class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">add</span>
+                        </div>
+                        <div class="h-[1px] bg-sage-200 dark:bg-gray-800 w-full"></div>
+                        <div class="flex justify-between items-center group cursor-pointer">
+                            <span class="text-sm font-medium uppercase tracking-widest text-gray-400">03 / Quality
+                                Inspection</span>
+                            <span
+                                class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">add</span>
+                        </div>
+                    </div>
+                    <div class="mt-12 bg-sage-200 dark:bg-gray-900/50 p-6 rounded-xl flex items-center justify-between">
+                        <span class="text-sm font-medium">View Our Service Pricing</span>
+                        <span class="material-symbols-outlined text-sage-500">arrow_forward</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary text-white py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 mb-20">
+                <div>
+                    <h2 class="text-6xl md:text-8xl font-display leading-[0.85] tracking-tighter mb-12">
+                        Your home<br />deserves<br /><span class="italic text-sage-400">the best.</span>
+                    </h2>
+                </div>
+                <div class="grid grid-cols-2 gap-12">
+                    <div class="space-y-8">
+                        <div>
+                            <p class="text-sage-400 text-xs font-bold uppercase tracking-widest mb-4">San Antonio</p>
+                            <p class="text-lg leading-relaxed text-gray-300">10606 Ranchland Fox<br />San Antonio, TX
+                                78245</p>
+                            <a class="inline-block mt-4 text-sm font-bold border-b border-sage-500 pb-1"
+                                href="mailto:info@cleananddrycarpet.com">info@cleananddrycarpet.com</a>
+                        </div>
+                        <div>
+                            <p class="text-sage-400 text-xs font-bold uppercase tracking-widest mb-4">Phone</p>
+                            <p class="text-lg leading-relaxed text-gray-300"><a href="tel:+12105843998">(210)
+                                    584-3998</a></p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <p class="text-sage-400 text-xs font-bold uppercase tracking-widest mb-6">Services</p>
+                        <a class="block text-gray-300 hover:text-white transition-colors" href="#">Carpet Cleaning</a>
+                        <a class="block text-gray-300 hover:text-white transition-colors" href="#">Tile &amp; Grout</a>
+                        <a class="block text-gray-300 hover:text-white transition-colors" href="#">Upholstery</a>
+                        <a class="block text-gray-300 hover:text-white transition-colors" href="#">Water Damage</a>
+                        <a class="block text-gray-300 hover:text-white transition-colors" href="#">Rug Cleaning</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="flex items-center space-x-2">
+                    <div class="w-6 h-6 bg-white rounded-full flex items-center justify-center">
+                        <span class="text-primary font-bold text-[8px]">CD</span>
+                    </div>
+                    <span class="font-bold text-lg tracking-tighter">CLEAN&DRY</span>
+                </div>
+                <div class="flex space-x-12 text-sm text-gray-400">
+                    <a class="hover:text-white transition-colors" href="#">Facebook</a>
+                    <a class="hover:text-white transition-colors" href="#">Instagram</a>
+                    <a class="hover:text-white transition-colors" href="#">Google</a>
+                </div>
+                <p class="text-xs text-gray-500 uppercase tracking-widest">© 2025 Clean & Dry Carpet Cleaning &
+                    Restoration LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
