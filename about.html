@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>About Us | Clean & Dry Carpet Cleaning & Restoration LLC</title>
+    <title>About Us | AlexCleanPro LLC Upholstery, Carpet Cleaning</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -19,10 +19,13 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: "#000000",
-                        "background-light": "#f8f9fa",
-                        "background-dark": "#0a0a0a",
-                        "accent-green": "#d1fae5",
+                        primary: "#0c2340",
+                        "primary-light": "#1a5276",
+                        accent: "#e8772e",
+                        "accent-light": "#f5a623",
+                        "background-light": "#f0f4f8",
+                        "background-dark": "#081828",
+                        "accent-blue": "#d0e1f0",
                     },
                     fontFamily: {
                         display: ["Inter", "sans-serif"],
@@ -62,275 +65,372 @@
 <body
     class="bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 transition-colors duration-300">
     <nav
-        class="fixed top-0 w-full z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+        class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#081828]/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="index.html" class="text-2xl font-black tracking-tighter">CLEAN&DRY</a>
+            <a href="index.html" class="text-2xl font-black tracking-tighter"><span
+                    class="text-primary dark:text-blue-400">ALEX</span><span class="text-accent">CLEAN</span><span
+                    class="text-primary dark:text-blue-400">PRO</span></a>
             <div class="hidden md:flex space-x-8 text-sm font-medium">
-                <a class="hover:opacity-60 transition-opacity" href="index.html">Home</a>
-                <a class="hover:opacity-60 transition-opacity" href="services.html">Services</a>
-                <a class="hover:opacity-60 transition-opacity underline decoration-2 underline-offset-4"
-                    href="about.html">About</a>
-                <a class="hover:opacity-60 transition-opacity" href="contact.html">Contact</a>
+                <a class="hover:text-accent transition-colors" href="index.html">Home</a>
+                <a class="hover:text-accent transition-colors" href="services.html">Services</a>
+                <a class="text-accent underline decoration-2 underline-offset-4" href="about.html">About</a>
+                <a class="hover:text-accent transition-colors" href="contact.html">Contact</a>
             </div>
             <div class="flex items-center space-x-4">
                 <button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
                     onclick="document.documentElement.classList.toggle('dark')">
                     <span class="material-symbols-outlined text-sm">dark_mode</span>
                 </button>
-                <a class="bg-primary text-white px-6 py-2.5 text-sm font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
+                <a class="bg-accent hover:bg-orange-600 text-white px-6 py-2.5 text-sm font-semibold transition-all flex items-center gap-2 rounded-full"
                     href="contact.html">
                     Contact <span class="material-symbols-outlined text-xs">arrow_forward</span>
                 </a>
             </div>
         </div>
     </nav>
-    <section class="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden pt-20">
-        <img alt="Professional carpet cleaning team at work"
-            class="absolute inset-0 w-full h-full object-cover grayscale brightness-50 dark:brightness-40"
-            src="images/carpet_cleaning_team_1771795247146.png" />
+    <section class="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden pt-20"
+        style="background: linear-gradient(135deg, #0c2340 0%, #1a5276 40%, #0c2340 70%, #1a3a5c 100%);">
+        <div class="absolute inset-0 opacity-20"
+            style="background: radial-gradient(ellipse at 30% 50%, #e8772e 0%, transparent 60%);"></div>
+        <div class="absolute inset-0 opacity-10"
+            style="background: radial-gradient(ellipse at 70% 80%, #e8772e 0%, transparent 50%);"></div>
         <div class="relative z-10 text-center px-6 max-w-4xl">
             <h1 class="text-white text-huge font-extrabold tracking-tight mb-8">
-                San Antonio's trusted <br />carpet cleaning &amp; <br />restoration experts.
+                Austin's trusted <br />upholstery &amp; carpet <br />cleaning experts.
             </h1>
             <div class="flex flex-wrap justify-center gap-4">
                 <span
-                    class="px-4 py-1.5 border border-white/30 rounded-full text-white text-sm backdrop-blur-md flex items-center gap-2">
-                    <span class="material-symbols-outlined text-xs">location_on</span> SAN ANTONIO, TX
+                    class="px-4 py-1.5 border border-accent/50 rounded-full text-white text-sm backdrop-blur-md flex items-center gap-2">
+                    <span class="material-symbols-outlined text-xs">location_on</span> AUSTIN, TX
                 </span>
                 <span
-                    class="px-4 py-1.5 border border-white/30 rounded-full text-white text-sm backdrop-blur-md flex items-center gap-2">
-                    <span class="material-symbols-outlined text-xs">star</span> 5.0 GOOGLE RATING
-                </span>
-                <span
-                    class="px-4 py-1.5 border border-white/30 rounded-full text-white text-sm backdrop-blur-md flex items-center gap-2">
-                    <span class="material-symbols-outlined text-xs">mail</span> INFO@CLEANANDDRYCARPET.COM
+                    class="px-4 py-1.5 border border-accent/50 rounded-full text-white text-sm backdrop-blur-md flex items-center gap-2">
+                    <span class="material-symbols-outlined text-xs">star</span> 5.0 GOOGLE RATING · 138 REVIEWS
                 </span>
             </div>
         </div>
     </section>
-    <section class="py-24 px-6 md:py-40 bg-white dark:bg-black">
+    <section class="py-24 px-6 md:py-40 bg-white dark:bg-[#081828]">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                 <div class="lg:col-span-8">
                     <p class="text-huge font-bold leading-tight tracking-tight">
-                        We're raising the <span
-                            class="text-primary dark:text-white underline decoration-4 underline-offset-8">bar for
-                            carpet care</span> in San Antonio with professional-grade cleaning and restoration services.
+                        We're raising the <span class="text-accent underline decoration-4 underline-offset-8">bar for
+                            upholstery &amp; carpet care</span> in Austin with professional-grade, eco-friendly cleaning
+                        services.
                     </p>
                     <div class="mt-12 flex items-center gap-4 group cursor-pointer">
-                        <a href="services.html" class="font-bold border-b-2 border-primary">View our services</a>
+                        <a href="services.html" class="font-bold border-b-2 border-accent text-accent">View our
+                            services</a>
                         <span
-                            class="material-symbols-outlined bg-primary text-white rounded-full p-1 group-hover:translate-x-1 transition-transform">add</span>
+                            class="material-symbols-outlined bg-accent text-white rounded-full p-1 group-hover:translate-x-1 transition-transform">add</span>
                     </div>
                 </div>
                 <div class="lg:col-span-4 lg:pt-4 text-gray-500 dark:text-gray-400">
                     <p class="text-lg leading-relaxed">
-                        Clean & Dry Carpet Cleaning & Restoration LLC serves the San Antonio, TX area, offering
-                        residential and specialty cleaning services including carpet, rug, tile, upholstery, and water
-                        damage restoration.
+                        AlexCleanPro LLC serves the Austin, Texas area, offering on-site upholstery, carpet, rug,
+                        mattress, and tile cleaning services. With 138 five-star reviews, we're Austin's most trusted
+                        cleaning team.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-accent-green/30 dark:bg-zinc-900/50 py-24 px-6">
+    <section class="bg-accent-blue/30 dark:bg-zinc-900/50 py-24 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="group cursor-pointer">
-                    <div class="overflow-hidden aspect-[4/3] bg-gray-200 dark:bg-gray-800 mb-6">
+                    <div class="overflow-hidden aspect-[4/3] bg-gray-200 dark:bg-gray-800 mb-6 rounded-lg">
                         <img alt="Professional cleaning equipment"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                             src="images/hero_carpet_cleaning_1771795094922.png" />
                     </div>
                     <h3 class="text-xl font-bold mb-2">Our Story</h3>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Founded with a passion for cleanliness and
-                        customer satisfaction in San Antonio.</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Founded with a passion for delivering the
+                        best upholstery and carpet cleaning in Austin. Alex and the team bring expert knowledge of
+                        fabrics, chemicals, and cleaning processes to every job.</p>
                     <div class="flex flex-wrap gap-2">
                         <span
-                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700">Local</span>
+                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-full">Local</span>
                         <span
-                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700">San
-                            Antonio</span>
+                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-full">Austin,
+                            TX</span>
                     </div>
                 </div>
                 <div class="group cursor-pointer">
-                    <div class="overflow-hidden aspect-[4/3] bg-gray-200 dark:bg-gray-800 mb-6">
-                        <img alt="Clean and Dry team serving customers"
+                    <div class="overflow-hidden aspect-[4/3] bg-gray-200 dark:bg-gray-800 mb-6 rounded-lg">
+                        <img alt="AlexCleanPro team serving customers"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                             src="images/clean_carpet_living_room_1771795112081.png" />
                     </div>
                     <h3 class="text-xl font-bold mb-2">Our Commitment</h3>
                     <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Dedicated to delivering 5-star quality on
-                        every job across Bexar County.</p>
+                        every job. Transparent, honest, and never upselling — we advise upfront if a stain may not be
+                        fully removable.</p>
                     <div class="flex flex-wrap gap-2">
                         <span
-                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700">Quality</span>
+                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-full">Quality</span>
                         <span
-                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700">5-Star</span>
+                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-full">5-Star</span>
                     </div>
                 </div>
                 <div class="group cursor-pointer">
-                    <div class="overflow-hidden aspect-[4/3] bg-gray-200 dark:bg-gray-800 mb-6">
+                    <div class="overflow-hidden aspect-[4/3] bg-gray-200 dark:bg-gray-800 mb-6 rounded-lg">
                         <img alt="Eco-friendly cleaning products and methods"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                             src="images/clean_commercial_space_1771795310365.png" />
                     </div>
                     <h3 class="text-xl font-bold mb-2">Eco-Friendly Methods</h3>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Safe, eco-friendly cleaning solutions that
-                        are tough on stains but gentle on your family.</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">We use citrus-based, eco-friendly cleaning
+                        chemicals that are tough on stains but gentle on your family and pets.</p>
                     <div class="flex flex-wrap gap-2">
                         <span
-                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700">Safe</span>
+                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-full">Eco</span>
                         <span
-                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700">Green</span>
+                            class="text-[10px] font-bold uppercase tracking-wider px-3 py-1 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-full">Pet-Friendly</span>
                     </div>
                 </div>
             </div>
             <div class="mt-16 flex justify-center">
-                <a href="contact.html" class="flex items-center gap-2 font-bold group">
+                <a href="contact.html"
+                    class="flex items-center gap-2 font-bold group hover:text-accent transition-colors">
                     Schedule a cleaning <span
-                        class="material-symbols-outlined bg-primary text-white rounded-full p-1 group-hover:translate-x-1 transition-transform">add</span>
+                        class="material-symbols-outlined bg-accent text-white rounded-full p-1 group-hover:translate-x-1 transition-transform">add</span>
                 </a>
             </div>
         </div>
     </section>
-    <section class="py-24 px-6 bg-white dark:bg-black">
+    <section class="py-24 px-6 bg-white dark:bg-[#081828]">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div>
                     <h2 class="text-4xl font-bold mb-8">Complete cleaning solutions for every surface in your home.</h2>
                     <p class="text-gray-600 dark:text-gray-400 text-lg mb-12">
-                        One call handles it all. From carpets and rugs to tile, grout, upholstery, and emergency water
-                        damage — we've got you covered.
+                        One call handles it all. From sofas and sectionals to carpets, rugs, mattresses, and tile — Alex
+                        and the team have got you covered.
                     </p>
                     <a href="services.html"
-                        class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest border-b border-black dark:border-white pb-1">
+                        class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest border-b border-accent pb-1 text-accent">
                         View all services <span class="material-symbols-outlined text-sm">arrow_forward</span>
                     </a>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
-                    <div class="border-t border-gray-200 dark:border-gray-800 pt-6">
-                        <h4 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">01</h4>
+                    <div class="border-t border-accent/30 pt-6">
+                        <h4 class="text-xs font-bold text-accent uppercase tracking-widest mb-4">01</h4>
+                        <h3 class="text-xl font-bold">Upholstery Cleaning</h3>
+                    </div>
+                    <div class="border-t border-accent/30 pt-6">
+                        <h4 class="text-xs font-bold text-accent uppercase tracking-widest mb-4">02</h4>
                         <h3 class="text-xl font-bold">Carpet Cleaning</h3>
                     </div>
-                    <div class="border-t border-gray-200 dark:border-gray-800 pt-6">
-                        <h4 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">02</h4>
-                        <h3 class="text-xl font-bold">Tile &amp; Grout</h3>
+                    <div class="border-t border-accent/30 pt-6">
+                        <h4 class="text-xs font-bold text-accent uppercase tracking-widest mb-4">03</h4>
+                        <h3 class="text-xl font-bold">Area Rug Cleaning</h3>
                     </div>
-                    <div class="border-t border-gray-200 dark:border-gray-800 pt-6">
-                        <h4 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">03</h4>
-                        <h3 class="text-xl font-bold">Upholstery &amp; Furniture</h3>
-                    </div>
-                    <div class="border-t border-gray-200 dark:border-gray-800 pt-6">
-                        <h4 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">04</h4>
-                        <h3 class="text-xl font-bold">Water Damage Restoration</h3>
+                    <div class="border-t border-accent/30 pt-6">
+                        <h4 class="text-xs font-bold text-accent uppercase tracking-widest mb-4">04</h4>
+                        <h3 class="text-xl font-bold">Mattress Cleaning</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-primary py-20 px-6">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
-            <div class="text-white">
-                <h3 class="text-2xl font-bold mb-2">Stay updated with cleaning tips &amp; offers</h3>
-                <p class="opacity-70">Get our latest promotions and home care advice delivered to your inbox.</p>
+
+    <!-- Meet the Team Section -->
+    <section class="py-24 px-6 bg-primary text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <p class="text-xs tracking-[0.4em] uppercase text-accent mb-4">Our Team</p>
+                <h2 class="text-4xl font-bold">Meet the AlexCleanPro Team</h2>
             </div>
-            <div class="w-full md:w-auto flex flex-col sm:flex-row gap-4">
-                <input
-                    class="bg-transparent border-b border-white/30 text-white px-0 py-3 focus:border-white focus:ring-0 w-full sm:w-64 placeholder:text-white/40"
-                    placeholder="Your email address" type="email" />
-                <button
-                    class="bg-white text-black px-8 py-3 font-bold hover:bg-opacity-90 transition-colors">Subscribe</button>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">A</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Alex</h3>
+                    <p class="text-sm opacity-70">Owner & Lead Technician</p>
+                    <p class="text-sm opacity-50 mt-2">Highly praised for professionalism, knowledge, and communication.
+                        Expert in fabrics, chemicals, and cleaning processes.</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-20 h-20 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-accent/30">
+                        <span class="text-2xl font-bold">M</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Max</h3>
+                    <p class="text-sm opacity-70">Technician</p>
+                    <p class="text-sm opacity-50 mt-2">Praised for being communicative, kind, and accommodating. Always
+                        goes the extra mile.</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-20 h-20 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-accent/30">
+                        <span class="text-2xl font-bold">V</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Victoria</h3>
+                    <p class="text-sm opacity-70">Team Member</p>
+                    <p class="text-sm opacity-50 mt-2">Key part of the AlexCleanPro family, helping ensure every
+                        customer gets white-glove service.</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="bg-black text-white pt-24 pb-12 px-6">
+
+    <!-- Key Differentiators Section -->
+    <section class="py-24 px-6 bg-white dark:bg-[#081828]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <p class="text-xs tracking-[0.4em] uppercase text-accent mb-4">Why Choose Us</p>
+                <h2 class="text-4xl font-bold">What Sets AlexCleanPro Apart</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-accent/50 transition-colors">
+                    <span class="material-symbols-outlined text-accent text-3xl mb-4 block">eco</span>
+                    <h3 class="font-bold mb-2">Eco-Friendly Chemicals</h3>
+                    <p class="text-sm opacity-60">Citrus-based, eco-friendly cleaning that's tough on stains but gentle
+                        on your family.</p>
+                </div>
+                <div
+                    class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-accent/50 transition-colors">
+                    <span class="material-symbols-outlined text-accent text-3xl mb-4 block">pets</span>
+                    <h3 class="font-bold mb-2">Pet Stain & Odor Specialists</h3>
+                    <p class="text-sm opacity-60">Experts at handling dog/cat urine, heavy pet odors, and related
+                        stains.</p>
+                </div>
+                <div
+                    class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-accent/50 transition-colors">
+                    <span class="material-symbols-outlined text-accent text-3xl mb-4 block">handshake</span>
+                    <h3 class="font-bold mb-2">Transparent & Honest</h3>
+                    <p class="text-sm opacity-60">We advise upfront if a stain may not be fully removable. No upselling,
+                        ever.</p>
+                </div>
+                <div
+                    class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-accent/50 transition-colors">
+                    <span class="material-symbols-outlined text-accent text-3xl mb-4 block">schedule</span>
+                    <h3 class="font-bold mb-2">Same-Day Availability</h3>
+                    <p class="text-sm opacity-60">Same-day or next-day service in many cases. We accommodate your
+                        schedule.</p>
+                </div>
+                <div
+                    class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-accent/50 transition-colors">
+                    <span class="material-symbols-outlined text-accent text-3xl mb-4 block">chat</span>
+                    <h3 class="font-bold mb-2">Highly Responsive</h3>
+                    <p class="text-sm opacity-60">Fast replies via text, call, and Instagram. We've even replied at 1
+                        AM.</p>
+                </div>
+                <div
+                    class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-accent/50 transition-colors">
+                    <span class="material-symbols-outlined text-accent text-3xl mb-4 block">payments</span>
+                    <h3 class="font-bold mb-2">Competitive Pricing</h3>
+                    <p class="text-sm opacity-60">Reasonable, competitive pricing with no hidden fees. No upselling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-accent py-20 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="text-white">
+                <h3 class="text-2xl font-bold mb-2">Stay updated with cleaning tips &amp; offers</h3>
+                <p class="opacity-80">Get our latest promotions and home care advice delivered to your inbox.</p>
+            </div>
+            <div class="w-full md:w-auto flex flex-col sm:flex-row gap-4">
+                <input
+                    class="bg-transparent border-b border-white/50 text-white px-0 py-3 focus:border-white focus:ring-0 w-full sm:w-64 placeholder:text-white/50"
+                    placeholder="Your email address" type="email" />
+                <button
+                    class="bg-primary text-white px-8 py-3 font-bold hover:bg-primary-light transition-colors rounded-full">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-primary text-white pt-24 pb-12 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 mb-20">
                 <div>
                     <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight">
-                        Your carpets <br />deserve the <br />best. <a
-                            class="underline decoration-1 underline-offset-8 hover:opacity-70" href="contact.html">Let's
-                            talk</a>.
+                        Your home <br />deserves the <br /><a
+                            class="underline decoration-1 underline-offset-8 hover:opacity-70 text-accent"
+                            href="contact.html">best</a>.
                     </h2>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div class="space-y-6">
                         <div class="border-t border-white/20 pt-6 flex justify-between items-start">
                             <div>
-                                <h4 class="font-bold mb-2">San Antonio</h4>
-                                <p class="text-sm opacity-50">10606 Ranchland Fox<br />San Antonio, TX 78245</p>
+                                <h4 class="font-bold mb-2">Austin, TX</h4>
+                                <p class="text-sm opacity-50">Austin, Texas Area<br />On-site service</p>
                             </div>
                             <span
-                                class="material-symbols-outlined text-sm border border-white/20 rounded-full p-1">arrow_forward</span>
+                                class="material-symbols-outlined text-sm border border-accent/30 rounded-full p-1 text-accent">arrow_forward</span>
                         </div>
                     </div>
                     <div class="space-y-6">
                         <div class="border-t border-white/20 pt-6 flex justify-between items-start">
                             <div>
                                 <h4 class="font-bold mb-2">Phone</h4>
-                                <p class="text-sm opacity-50"><a href="tel:+12105843998">(210) 584-3998</a></p>
+                                <p class="text-sm opacity-50"><a href="tel:+12672509749">(267) 250-9749</a></p>
                             </div>
                             <span
-                                class="material-symbols-outlined text-sm border border-white/20 rounded-full p-1">call</span>
+                                class="material-symbols-outlined text-sm border border-accent/30 rounded-full p-1 text-accent">call</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-20">
                 <div class="space-y-4">
-                    <h5 class="text-xs font-bold uppercase tracking-widest text-gray-500">Company</h5>
+                    <h5 class="text-xs font-bold uppercase tracking-widest text-accent/70">Company</h5>
                     <ul class="text-sm space-y-2">
-                        <li><a class="hover:opacity-60" href="index.html">Home</a></li>
-                        <li><a class="hover:opacity-60" href="about.html">About</a></li>
-                        <li><a class="hover:opacity-60" href="services.html">Services</a></li>
-                        <li><a class="hover:opacity-60" href="contact.html">Contact</a></li>
+                        <li><a class="hover:text-accent" href="index.html">Home</a></li>
+                        <li><a class="hover:text-accent" href="about.html">About</a></li>
+                        <li><a class="hover:text-accent" href="services.html">Services</a></li>
+                        <li><a class="hover:text-accent" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="space-y-4">
-                    <h5 class="text-xs font-bold uppercase tracking-widest text-gray-600">Services</h5>
+                    <h5 class="text-xs font-bold uppercase tracking-widest text-accent/70">Services</h5>
                     <ul class="text-sm space-y-2">
-                        <li><a class="hover:opacity-60" href="#">Carpet Cleaning</a></li>
-                        <li><a class="hover:opacity-60" href="#">Tile &amp; Grout</a></li>
-                        <li><a class="hover:opacity-60" href="#">Upholstery</a></li>
-                        <li><a class="hover:opacity-60" href="#">Water Damage</a></li>
+                        <li><a class="hover:text-accent" href="#">Upholstery Cleaning</a></li>
+                        <li><a class="hover:text-accent" href="#">Carpet Cleaning</a></li>
+                        <li><a class="hover:text-accent" href="#">Area Rug Cleaning</a></li>
+                        <li><a class="hover:text-accent" href="#">Mattress Cleaning</a></li>
                     </ul>
                 </div>
                 <div class="space-y-4">
-                    <h5 class="text-xs font-bold uppercase tracking-widest text-gray-600">Specialty</h5>
+                    <h5 class="text-xs font-bold uppercase tracking-widest text-accent/70">Specialty</h5>
                     <ul class="text-sm space-y-2">
-                        <li><a class="hover:opacity-60" href="#">Rug Cleaning</a></li>
-                        <li><a class="hover:opacity-60" href="#">Stain Removal</a></li>
-                        <li><a class="hover:opacity-60" href="#">Odor Removal</a></li>
-                        <li><a class="hover:opacity-60" href="#">Mattress Cleaning</a></li>
+                        <li><a class="hover:text-accent" href="#">Stain Removal</a></li>
+                        <li><a class="hover:text-accent" href="#">Odor Removal</a></li>
+                        <li><a class="hover:text-accent" href="#">Pet Stain Treatment</a></li>
+                        <li><a class="hover:text-accent" href="#">Tile Cleaning</a></li>
                     </ul>
                 </div>
                 <div class="space-y-4">
-                    <h5 class="text-xs font-bold uppercase tracking-widest text-gray-600">Connect</h5>
+                    <h5 class="text-xs font-bold uppercase tracking-widest text-accent/70">Connect</h5>
                     <ul class="text-sm space-y-2">
-                        <li><a class="hover:opacity-60" href="#">Facebook</a></li>
-                        <li><a class="hover:opacity-60" href="#">Instagram</a></li>
-                        <li><a class="hover:opacity-60" href="#">Google</a></li>
-                        <li><a class="hover:opacity-60" href="privacy.html">Privacy Policy</a></li>
+                        <li><a class="hover:text-accent" href="#">Instagram</a></li>
+                        <li><a class="hover:text-accent" href="#">Google</a></li>
+                        <li><a class="hover:text-accent" href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div class="col-span-2 bg-zinc-900 p-8 flex flex-col justify-between">
+                <div class="col-span-2 bg-primary-light p-8 flex flex-col justify-between rounded-lg">
                     <div>
                         <h4 class="font-bold mb-2">Need a quote?</h4>
-                        <a class="text-lg underline decoration-1 underline-offset-4"
-                            href="mailto:info@cleananddrycarpet.com">info@cleananddrycarpet.com</a>
+                        <p class="text-lg">Call us at <a class="underline decoration-1 underline-offset-4"
+                                href="tel:+12672509749">(267) 250-9749</a></p>
                     </div>
                     <div class="mt-8">
-                        <h4 class="font-bold mb-2">Call us today</h4>
-                        <a class="text-lg underline decoration-1 underline-offset-4" href="tel:+12105843998">(210)
-                            584-3998</a>
+                        <h4 class="font-bold mb-2">Follow us</h4>
+                        <p class="text-sm opacity-70">Find us on Instagram for before/after photos</p>
                     </div>
                 </div>
             </div>
             <div class="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-                <div class="text-3xl font-black tracking-tighter">CLEAN&DRY</div>
+                <div class="text-3xl font-black tracking-tighter"><span class="text-white">ALEX</span><span
+                        class="text-accent">CLEAN</span><span class="text-white">PRO</span></div>
                 <div class="text-[10px] uppercase tracking-[0.2em] opacity-30">
-                    © 2025 CLEAN &amp; DRY CARPET CLEANING &amp; RESTORATION LLC. ALL RIGHTS RESERVED.
+                    © 2025 ALEXCLEANPRO LLC UPHOLSTERY, CARPET CLEANING. ALL RIGHTS RESERVED.
                 </div>
             </div>
         </div>
@@ -351,14 +451,13 @@
             section.classList.add('reveal-on-scroll');
             observer.observe(section);
         });
-        setTimeout(() => {
-            document.getElementById('cookie-banner').classList.remove('hidden');
-        }, 3000);
-        function closeCookies() {
-            document.getElementById('cookie-banner').style.display = 'none';
-        }
     </script>
 
+    <!-- ElevenLabs Voice Agent -->
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+    <elevenlabs-convai agent-id="agent_1101kjxra60be5b8x5z5exwq0afr"></elevenlabs-convai>
+
+    <!-- Custom Voice Assistant Widget -->
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Contact Us | Clean & Dry Carpet Cleaning & Restoration LLC</title>
+    <title>Contact Us | AlexCleanPro LLC Upholstery, Carpet Cleaning</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -20,9 +20,12 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: "#000000",
-                        "background-light": "#f1f8ed",
-                        "background-dark": "#0a0a0a",
+                        primary: "#0c2340",
+                        "primary-light": "#1a5276",
+                        accent: "#e8772e",
+                        "accent-light": "#f5a623",
+                        "background-light": "#f0f4f8",
+                        "background-dark": "#081828",
                     },
                     fontFamily: {
                         display: ["Inter", "sans-serif"],
@@ -49,7 +52,7 @@
         }
 
         .map-gradient {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+            background: linear-gradient(to bottom, rgba(12, 35, 64, 0) 0%, rgba(12, 35, 64, 0.85) 100%);
         }
     </style>
 </head>
@@ -58,30 +61,32 @@
     class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300">
     <nav
         class="fixed top-0 w-full z-50 px-6 py-6 flex justify-between items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
-        <a href="index.html" class="text-2xl font-bold tracking-tighter">CLEAN&DRY</a>
+        <a href="index.html" class="text-2xl font-bold tracking-tighter"><span
+                class="text-primary dark:text-blue-400">ALEX</span><span class="text-accent">CLEAN</span><span
+                class="text-primary dark:text-blue-400">PRO</span></a>
         <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
-            <a class="hover:opacity-50 transition-opacity" href="index.html">Home</a>
-            <a class="hover:opacity-50 transition-opacity" href="services.html">Services</a>
-            <a class="hover:opacity-50 transition-opacity" href="about.html">About</a>
-            <a class="hover:opacity-50 transition-opacity underline underline-offset-8" href="contact.html">Contact</a>
+            <a class="hover:text-accent transition-colors" href="index.html">Home</a>
+            <a class="hover:text-accent transition-colors" href="services.html">Services</a>
+            <a class="hover:text-accent transition-colors" href="about.html">About</a>
+            <a class="text-accent underline underline-offset-8" href="contact.html">Contact</a>
         </div>
-        <a href="tel:+12105843998"
-            class="bg-primary text-white px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest hover:scale-105 transition-transform">
+        <a href="tel:+12672509749"
+            class="bg-accent hover:bg-orange-600 text-white px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest hover:scale-105 transition-all">
             Call Now
         </a>
     </nav>
     <main class="pt-32">
         <section class="px-6 mb-24">
-            <div class="relative h-[60vh] md:h-[70vh] w-full overflow-hidden group">
-                <img alt="Beautifully cleaned carpet in modern San Antonio home"
-                    class="w-full h-full object-cover grayscale brightness-75 transition-transform duration-700 group-hover:scale-105"
+            <div class="relative h-[60vh] md:h-[70vh] w-full overflow-hidden group rounded-2xl">
+                <img alt="Beautifully cleaned upholstery in modern Austin home"
+                    class="w-full h-full object-cover brightness-75 transition-transform duration-700 group-hover:scale-105"
                     src="images/clean_carpet_living_room_1771795112081.png" />
                 <div class="absolute inset-0 map-gradient flex flex-col justify-end p-8 md:p-16">
                     <h1 class="text-4xl md:text-7xl font-semibold tracking-tight text-white mb-4">
-                        Let's make your <br /> home spotless.
+                        Let's make your <br />home <span class="text-accent">spotless.</span>
                     </h1>
                     <p class="text-lg md:text-xl text-slate-300 max-w-xl font-light">
-                        We're based in San Antonio and serve Bexar County and nearby areas. Your cleaner home is just a
+                        We're based in Austin, Texas and serve the greater Austin area. Your cleaner home is just a
                         call away.
                     </p>
                 </div>
@@ -102,7 +107,7 @@
                             <label
                                 class="block text-[10px] uppercase tracking-widest font-bold mb-2 opacity-50">Phone</label>
                             <input name="phone" class="w-full bg-transparent border-none p-0 focus:ring-0 text-lg"
-                                placeholder="(210) 555-0123" type="tel" required />
+                                placeholder="(512) 555-0123" type="tel" required />
                         </div>
                     </div>
                     <div class="border-b border-slate-300 dark:border-slate-800 pb-2">
@@ -116,13 +121,13 @@
                             Needed</label>
                         <select name="service"
                             class="w-full bg-transparent border-none p-0 focus:ring-0 text-lg appearance-none">
-                            <option>Carpet Cleaning</option>
-                            <option>Tile &amp; Grout Cleaning</option>
                             <option>Upholstery Cleaning</option>
-                            <option>Water Damage Restoration</option>
-                            <option>Rug Cleaning</option>
-                            <option>Stain &amp; Odor Removal</option>
+                            <option>Carpet Cleaning</option>
+                            <option>Area Rug Cleaning</option>
                             <option>Mattress Cleaning</option>
+                            <option>Tile Cleaning</option>
+                            <option>Stain &amp; Odor Removal</option>
+                            <option>Commercial Cleaning</option>
                             <option>Other</option>
                         </select>
                     </div>
@@ -138,50 +143,43 @@
                         type="submit">
                         <span>Send Request</span>
                         <div
-                            class="w-10 h-10 rounded-full border border-primary dark:border-slate-100 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+                            class="w-10 h-10 rounded-full border border-accent flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-all">
                             <span class="material-symbols-outlined text-sm">arrow_forward</span>
                         </div>
                     </button>
                 </form>
             </div>
             <div class="space-y-24">
-                <div class="border-t border-slate-300 dark:border-slate-800 pt-8">
+                <div class="border-t border-accent/30 pt-8">
                     <div class="flex justify-between items-start mb-6">
-                        <h3 class="text-2xl font-semibold">San Antonio Office</h3>
-                        <a class="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest opacity-60 hover:opacity-100 transition-opacity"
-                            href="https://maps.google.com/?q=10606+Ranchland+Fox+San+Antonio+TX+78245" target="_blank">
-                            <span>Directions</span>
-                            <span class="material-symbols-outlined text-sm">north_east</span>
-                        </a>
+                        <h3 class="text-2xl font-semibold">Austin Service Area</h3>
                     </div>
                     <p class="text-lg font-light leading-relaxed max-w-xs opacity-80">
-                        10606 Ranchland Fox <br />
-                        San Antonio, TX 78245 <br />
-                        United States
+                        Austin, Texas Area <br />
+                        On-site mobile service <br />
+                        Greater Austin &amp; surrounding areas
                     </p>
                 </div>
-                <div class="border-t border-slate-300 dark:border-slate-800 pt-8">
+                <div class="border-t border-accent/30 pt-8">
                     <div class="flex justify-between items-start mb-6">
                         <h3 class="text-2xl font-semibold">Business Hours</h3>
                     </div>
                     <div class="text-lg font-light leading-relaxed max-w-xs opacity-80 space-y-1">
-                        <p>Monday – Saturday: 7:00 AM – 7:00 PM</p>
-                        <p>Sunday: Closed</p>
-                        <p class="text-sm mt-2 opacity-60">24/7 Emergency Water Damage Response</p>
+                        <p>Open Daily · Closes 10 PM</p>
+                        <p class="text-sm mt-2 opacity-60">Same-day or next-day availability in many cases</p>
                     </div>
                 </div>
-                <div class="border-t border-slate-300 dark:border-slate-800 pt-8">
-                    <h3 class="text-xs uppercase font-bold tracking-[0.2em] mb-6 opacity-40">Direct Contact</h3>
+                <div class="border-t border-accent/30 pt-8">
+                    <h3 class="text-xs uppercase font-bold tracking-[0.2em] mb-6 text-accent">Direct Contact</h3>
                     <div class="space-y-4">
                         <div>
                             <p class="text-xs opacity-50 mb-1 uppercase tracking-widest">Phone</p>
-                            <a class="text-xl font-medium hover:opacity-50 transition-opacity"
-                                href="tel:+12105843998">(210) 584-3998</a>
+                            <a class="text-xl font-medium hover:text-accent transition-colors"
+                                href="tel:+12672509749">(267) 250-9749</a>
                         </div>
                         <div>
-                            <p class="text-xs opacity-50 mb-1 uppercase tracking-widest">Email</p>
-                            <a class="text-xl font-medium hover:opacity-50 transition-opacity"
-                                href="mailto:info@cleananddrycarpet.com">info@cleananddrycarpet.com</a>
+                            <p class="text-xs opacity-50 mb-1 uppercase tracking-widest">Social</p>
+                            <p class="text-sm opacity-70">Find us on Instagram — we respond fast!</p>
                         </div>
                     </div>
                 </div>
@@ -189,13 +187,13 @@
         </section>
 
         <section class="px-6 mb-24 max-w-7xl mx-auto">
-            <h3 class="text-2xl font-bold mb-6 tracking-tight">Find Us</h3>
+            <h3 class="text-2xl font-bold mb-6 tracking-tight">Find Us in Austin</h3>
             <div class="w-full rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.5!2d-98.6994!3d29.4241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s10606+Ranchland+Fox+San+Antonio+TX+78245!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220984.4089747799!2d-97.89634399999999!3d30.307182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                     width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
-                    title="Clean and Dry Carpet Cleaning location in San Antonio"></iframe>
+                    title="AlexCleanPro serving Austin, Texas area"></iframe>
             </div>
         </section>
 
@@ -205,53 +203,54 @@
                     <div>
                         <h2 class="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight mb-8">
                             Your home deserves a <br />
-                            fresh start. <a class="underline underline-offset-8 decoration-1"
-                                href="tel:+12105843998">Call us!</a>
+                            fresh start. <a class="underline underline-offset-8 decoration-1 text-accent"
+                                href="tel:+12672509749">Call us!</a>
                         </h2>
                     </div>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-12">
                         <div class="space-y-4">
-                            <p class="text-[10px] uppercase tracking-widest font-bold opacity-40">Company</p>
+                            <p class="text-[10px] uppercase tracking-widest font-bold text-accent/70">Company</p>
                             <nav class="flex flex-col space-y-2 text-sm opacity-80">
-                                <a class="hover:opacity-60" href="index.html">Home</a>
-                                <a class="hover:opacity-60" href="about.html">About</a>
-                                <a class="hover:opacity-60" href="services.html">Services</a>
-                                <a class="hover:opacity-60" href="contact.html">Contact</a>
+                                <a class="hover:text-accent" href="index.html">Home</a>
+                                <a class="hover:text-accent" href="about.html">About</a>
+                                <a class="hover:text-accent" href="services.html">Services</a>
+                                <a class="hover:text-accent" href="contact.html">Contact</a>
                             </nav>
                         </div>
                         <div class="space-y-4">
-                            <p class="text-[10px] uppercase tracking-widest font-bold opacity-40">Services</p>
+                            <p class="text-[10px] uppercase tracking-widest font-bold text-accent/70">Services</p>
                             <nav class="flex flex-col space-y-2 text-sm opacity-80">
-                                <a class="hover:opacity-60" href="#">Carpet Cleaning</a>
-                                <a class="hover:opacity-60" href="#">Tile &amp; Grout</a>
-                                <a class="hover:opacity-60" href="#">Upholstery</a>
-                                <a class="hover:opacity-60" href="#">Water Damage</a>
+                                <a class="hover:text-accent" href="#">Upholstery</a>
+                                <a class="hover:text-accent" href="#">Carpet</a>
+                                <a class="hover:text-accent" href="#">Mattress</a>
+                                <a class="hover:text-accent" href="#">Area Rugs</a>
                             </nav>
                         </div>
                         <div class="space-y-4">
-                            <p class="text-[10px] uppercase tracking-widest font-bold opacity-40">Social</p>
+                            <p class="text-[10px] uppercase tracking-widest font-bold text-accent/70">Social</p>
                             <nav class="flex flex-col space-y-2 text-sm opacity-80">
-                                <a class="hover:opacity-60" href="#">Facebook</a>
-                                <a class="hover:opacity-60" href="#">Instagram</a>
-                                <a class="hover:opacity-60" href="#">Google</a>
+                                <a class="hover:text-accent" href="#">Instagram</a>
+                                <a class="hover:text-accent" href="#">Google</a>
                             </nav>
                         </div>
                     </div>
                 </div>
                 <div
                     class="pt-16 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest font-bold opacity-40 gap-8">
-                    <p>© 2025 Clean &amp; Dry Carpet Cleaning &amp; Restoration LLC. All rights reserved.</p>
+                    <p>© 2025 AlexCleanPro LLC Upholstery, Carpet Cleaning. All rights reserved.</p>
                     <div class="flex space-x-8">
                         <a class="hover:opacity-100 transition-opacity" href="privacy.html">Privacy Policy</a>
-                        <a class="hover:opacity-100 transition-opacity" href="#">Cookies</a>
                     </div>
                 </div>
             </div>
         </footer>
     </main>
 
-    </div>
+    <!-- ElevenLabs Voice Agent -->
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+    <elevenlabs-convai agent-id="agent_1101kjxra60be5b8x5z5exwq0afr"></elevenlabs-convai>
 
+    <!-- Custom Voice Assistant Widget -->
 </body>
 
 </html>
